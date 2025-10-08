@@ -9,3 +9,38 @@
     --white: hsl(0, 0%, 100%);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--blue-950);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 330px;
+    height: 600px;
+    background-color: var(--blue-900);
+    color: var(--blue-500);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.equilibrium-img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: var(--white);
+}
